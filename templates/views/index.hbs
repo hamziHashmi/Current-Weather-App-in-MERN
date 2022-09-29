@@ -1,0 +1,32 @@
+{{>header}}
+  <title>Home Page of Weather App</title>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  {{>navbar}}
+  <!-- Main Header -->
+  <div class="container-fluid main_header">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <div class="col-md-6 col-12 main_header_left">
+            <p>Welcome to Weather App</p>
+            <h3>Get the Latest<span class="text-clr"> Weather</span> Info of Your City</h3>
+           <a href="/about"> <button type="button" class="btn btn-primary">Get Info</button></a>
+          </div>
+          <div class="col-md-6 col-12 mx-auto main_header_right">
+
+            <!-- Picture -->
+            <img
+              src="https://img.freepik.com/free-vector/weather-interface-flat-concept_1284-5396.jpg?w=740&t=st=1664212846~exp=1664213446~hmac=854b9b3135fa2879703925010ed61379f638bc1c4afc21db2f4b21603c5a78b9"
+              width="450px" height="350px" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      </div> 
+      <!-- Footer -->
+      {{>footer}}
+</body>
+
+</html>
